@@ -6,18 +6,6 @@ The code employs the MapReduce and Hive technologies and can be run on a Hadoop 
 
 ### Code submission directory structure
 
-src/
-|__ana_code/
-|  |__AttributesCount.java - counts the number of occurences of each unique attribute in a given input file
-|  |__CategoriesCount.java - counts the number of occurrences of each unique category in a given input file
-|  |__SortSuccessful.java - map-only, returns restaurant entries defined as "successful"
-|  |__SortUnsuccessful.java - map-only, returns restaurant entries defined as "unsuccessful"
-|__etl_code/
-|  |__Cleaning.java - map-only, parses out json-formatted data and returns relevant columns in comma delimited format 
-|__profiling_code/
-   |__CountRecs.java - counts the number of records in a given input file
-   |__StateCount.java - counts the number of occurences of each state in a given input file
-
 ### Project step-by-step
 
 1. Import businesses.json from https://www.yelp.com/dataset into HDFS.
